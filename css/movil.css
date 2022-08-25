@@ -1,0 +1,48 @@
+@media screen and (max-width: 800px){
+    .ancho_movil{
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .unico{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .texto h1{
+        font-size: 40px;
+        line-height: 71px;
+    }
+
+    .texto p{
+        font-size: 18px;
+        line-height: 29px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .unico figure img{
+        margin: 10px;
+    }
+
+    .texto p{
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .unico figure{
+        width: 300px;
+        height: 300px;
+    }
+
+    .unico figure img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .texto{
+        text-align: center;
+    }
+}
